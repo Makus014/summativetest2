@@ -78,6 +78,8 @@ void exponent() {
 	cout << "Type a number " << endl;
 	cin >> Number;
 	for (i = 5; i <= 10; i++) {
-		cout << "The exponent of this number " << Number << "^" << i << endl;
-	  }
+		cout << "The exponent of this number " << Number << "^" << i << " is = ";  
+  	  	cout << pow(i, Number) << endl;  
+  	  }  
+
 }
